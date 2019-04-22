@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv=“content-type“ content=“text/html; charset=windows-1251″ />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+  <meta name="keywords" content="Jordan Jordanov, Метални конструкции, монтаж метални конструкци,ap4ihh, монтаж, заварки, монтаж LT ламарина, метал конструкшън,болтов и завърчен монтаж,конструкции софия,стоманена конструкция, термопанели и ламарина,суматерм,">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Метални конструкции|Бригада извършваща монтаж на метални конструкци!">
+  <meta name=“ЙорданЙорданов“ content=“МеталниКонструкции“ />
+  <title>Метални Конструкции - Йордан Йорданов</title>
+  <link rel = "stylesheet" href="css/normalize.css">
+  <link rel = "stylesheet" href="css/style.css">
+ </head>
+
+  <body  class="body">
+    <header class="mainHeader">
+
+		<img src="images/logo.png">
+		<div class="head">
+		<h1>Metal Constructions</h1>
+		<h2>Jordan Jordanov</h2>
+		</div>
+    <%- include menu.ejs %>
+    </header>
+                <header>
+                    <h2 class="font-weight-semibold text-uppercase">Логин форма</h2>
+                </header>
+                <div class="row">
+                    <div class="col-md-7 mx-auto">
+                        <form class="login-form" action="/controllers/login-controller" method="post">
+                            <div class="<%= alert_danger %>" role="alert">
+                                <%= error %>
+                            </div>
+                            <div class="form-group">
+                                <label for="username">Потребителско име</label>
+                                <input type="text" class="form-control" name="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Парола</label>
+                                <input type="password" class="form-control" name="password">
+                            </div>
+                            <button type="submit" class="btn btn-primary login-btn">Изпрати</button>
+                        </form>
+                    </div>
+                </div>
+    <%- include footer.ejs %>
+  </body>
+</html>
