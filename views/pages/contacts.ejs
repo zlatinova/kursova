@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv=“content-type“ content=“text/html; charset=windows-1251″ />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+  <meta name="keywords" content="Метални конструкции, монтаж метални конструкци, монтаж, заварки, монтаж LT ламарина, метал конструкшън,болтов и завърчен монтаж,конструкции софия,стоманена конструкция, термопанели и ламарина,суматерм,">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Метални конструкции|Бригада извършваща монтаж на метални конструкци!">
+  <meta name=“classification“ content=“business“ />
+  <meta name=“JordanJordanov“ content=“MetalConstructions“ />
+  <title>Метални Конструкции - Йордан Йорданов</title>
+  <link rel = "stylesheet" href="css/normalize.css">
+  <link rel = "stylesheet" href="css/style.css">
+</head>
+<body class="body">
+  <header class="mainHeader">
+     <%- include menu.ejs %>
+    <img src="images/logo.png">
+    <div class="head">
+    <h1>Metal Constructions</h1>
+    <h2>Jordan Jordanov</h2>
+    </div>
+  </header>     
+    <section class="content"> 
+        <article class="topcontent" id="contact"> 
+          <header>
+            <h2><a href="#" rel="bookmark" title="Permalink to this POST TITLE">Контактна форма</a></h2>
+          </header>     
+          <content>
+          <div id="contact_form">
+          <form name="form1" id="ff" method="post" action="insert.php">
+            <label>
+            <span>Име:</span>
+            <input type="text" placeholder="Please enter your name" name="name" id="name" required autofocus>
+            </label>
+                                    
+            <label>
+            <span>Телефон:</span>
+            <input type="tel" placeholder="Please enter your phone" name="phone" id="phone"required>
+            </label>
+            
+            <label>
+            <span>Емейл:</span>
+            <input type="email" placeholder="youremail@gmail.com" name="email" id="email" required>
+              </label>
+             
+              <label>
+            <span>Съобщение:</span>    
+            <input type="textarea" placeholder="Please enter your mеssage" name="mеssage" id="mеssage" required>
+            </label>
+            <input class="sendButton" type="submit" name="Submit" value="Изпрати">
+              
+          </form>
+          </div>
+          </content>
+        </article>
+
+        <article class="bottomcontent"> 
+          <header>
+            <h2><a href="#" rel="bookmark" title="Permalink to this POST TITLE">Карта</a></h2>
+          </header>
+
+          <content>
+            <form class= "map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11733.474427651026!2d23.37348973126484!3d42.67473366666978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0YHQvtGE0LjRjyDQtNGA0YPQttCx0LAgMSDQsdC7LiAxMjA!5e0!3m2!1sbg!2sbg!4v1494677235129" width="100%" height="100%" 
+              frameborder="0" style="border:0" allowfullscreen>
+            </iframe>
+            </form>
+          </content>
+        
+        </article>
+    </section>
+      
+        <aside class="sidebar-box">
+          <article>
+          <h2><a href="contacts.html" rel="bookmark" title="Permalink to this POST TITLE">Бързо и качествено!</a></h2>
+           <iframe id="video" width="100%" height="auto" src="https://www.youtube.com/embed/sd_0k5dBoHA" frameborder="0" allowfullscreen></iframe> </article>
+        </aside>
+        <aside class="sidebar-box">
+          <article>
+          <content>
+          <h2><a href="contacts.html" rel="bookmark" title="Permalink to this POST TITLE">За връзка с нас</a></h2>
+          <h4>Лице за контакт:</h4>     
+          <h3>Йордан Йорданов</h3>      
+          <h4>Телефон:</h4>             
+          <a class="phone" href="tel:+359 89 34 68 507" >+359 893 468 507</a><br> 
+          <a class="phone" href="tel:+359888554548" >+359 888 554 548</a>     
+          <h4>Email:</h4>
+          <a class="email" href="mailto:ap4ihh@abv.bg" target="_top">ap4ihh@abv.bg</a>          
+          </content> 
+          </article>
+        </aside>  
+    <%- include footer.ejs %>
+
+  </body>
+</html>
